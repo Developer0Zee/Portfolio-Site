@@ -1,0 +1,310 @@
+@media (min-width: 768px) and (max-width: 1024px) {
+  body {
+    margin: 0;
+  }
+  .container {
+    padding: 10px;
+    height: 25px;
+  }
+  .containerProfile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+    width: 650px;
+    height: 350px;
+    margin: 40px auto;
+    padding: 1px;
+    border: 1px solid black;
+    border-radius: 20px;
+    background-color: #f9f9f9;
+    position: relative;
+    top: 20px;
+    bottom: 20px;
+  }
+  .introText {
+    font-size: 15px;
+  }
+  .social img {
+    position: relative;
+    left: 70px;
+    bottom: 30px;
+    height: 30px;
+    width: 30px;
+  }
+  .btn {
+    display: flex;
+    position: relative;
+    bottom: 40px;
+    left: 70px;
+    padding: 1px;
+    gap: 10px;
+  }
+
+  .btn button {
+    height: 30px;
+    width: 80px;
+
+    font-size: 10px;
+  }
+
+  #about {
+    margin-top: 100px;
+    height: 580px;
+  }
+  .container-about {
+    padding: 10px;
+  }
+  .container-about p {
+    font-size: 1rem;
+  }
+
+  #mySkills {
+    width: auto;
+  }
+  .skillsContainer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    margin-top: 20px;
+  }
+  .linear {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 50px;
+    width: 500px;
+    border-radius: 20px;
+    background-color: white;
+
+    box-shadow: 10px 5px 5px 10px grey;
+  }
+  .circular {
+    position: relative;
+    margin-left: 100px;
+  }
+
+  .containerService {
+    display: grid;
+    gap: 5px;
+    grid-template-columns: repeat(autofit, minmax(300px, 1fr));
+    padding: 30px;
+    text-align: center;
+  }
+  .webDev,
+  .webDesign,
+  .dataBase {
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: white;
+    height: 500px;
+    width: auto;
+  }
+  .projects-container {
+    grid-template-columns: repeat(autofit, minmax-width(300px, 1fr));
+    gap: 50px;
+    padding: 50px 20px;
+    margin-top: 50px;
+    text-align: center;
+    height: 50px;
+    width: 50px;
+  }
+
+  .project img {
+    height: 180px;
+    width: 180px;
+  }
+  .contactMe-container form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5px;
+    padding: 5px;
+    gap: 0px;
+    line-height: 0.5;
+  }
+  textarea {
+    width: 420px;
+  }
+  input[type="submit"] {
+    height: 40px;
+    width: auto;
+    border-radius: 10px;
+    position: relative;
+    margin-left: 30px;
+    background-color: #1a4d2e;
+    color: white;
+  }
+}
+
+@media (min-width: 360px) and (max-width: 740px) {
+  body {
+    margin: 0;
+  }
+  .container {
+    padding: 15px;
+    height: 35px;
+    display: flex;
+    gap: 5px;
+    justify-content: space-between;
+  }
+  .nav-items {
+    padding: 1px;
+    margin: 5px;
+  }
+  .nav-items li {
+    padding: 1px;
+    margin: 1px;
+    font-size: 1rem;
+  }
+
+  .containerProfile {
+    display: flex;
+    flex-direction: column;
+    gap: 1px;
+    width: 550px;
+    height: 380px;
+    margin: 50px 65px;
+    padding: 1px;
+    border: 1px solid black;
+    border-radius: 20px;
+    background-color: #f9f9f9;
+    position: relative;
+    top: 50px;
+    bottom: 20px;
+  }
+  .introText {
+    font-size: 15px;
+  }
+  .social img {
+    position: relative;
+    left: 100px;
+    bottom: 25px;
+    height: 25px;
+    width: 25px;
+  }
+  .btn {
+    display: flex;
+    position: relative;
+    bottom: 40px;
+    left: 100px;
+    padding: 1px;
+    gap: 10px;
+  }
+
+  .btn button {
+    height: 30px;
+    width: 80px;
+
+    font-size: 10px;
+  }
+
+  #about {
+    margin-top: 100px;
+    height: 80vh;
+    width: 700px;
+  }
+  .container-about {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    width: auto;
+  }
+  .container-about p {
+    font-size: 15px;
+  }
+
+  #mySkills {
+    width: 700px;
+  }
+  .skillsContainer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 75px;
+    margin-top: 10px;
+  }
+  .linear {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px 40px;
+    width: 500px;
+    border-radius: 20px;
+    background-color: white;
+
+    box-shadow: 10px 5px 5px 10px grey;
+  }
+  .circular {
+    position: relative;
+    margin-left: 50px;
+  }
+
+  .containerService {
+    display: grid;
+    gap: 5px;
+    grid-template-columns: repeat(autofit, minmax(300px, 1fr));
+    padding: 30px;
+    text-align: center;
+  }
+  .webDev,
+  .webDesign,
+  .dataBase {
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: white;
+    height: 500px;
+    width: auto;
+  }
+  .projects-container {
+    grid-template-columns: repeat(autofit, minmax-width(300px, 1fr));
+    gap: 50px;
+    padding: 50px 20px;
+    margin-top: 50px;
+    text-align: center;
+    height: 50px;
+    width: 50px;
+  }
+
+  .project img {
+    height: 180px;
+    width: 180px;
+  }
+  .contactMe-container form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5px;
+    padding: 5px;
+    gap: 0px;
+    line-height: 0.5;
+  }
+  textarea {
+    width: 420px;
+  }
+  input[type="submit"] {
+    height: 40px;
+    width: auto;
+    border-radius: 10px;
+    position: relative;
+    margin-left: 30px;
+    background-color: #1a4d2e;
+    color: white;
+  }
+
+  #Certification-Services {
+    width: 700px;
+  }
+  #projects-section {
+    width: 700px;
+  }
+  #contactMe {
+    width: 700px;
+  }
+  #footer {
+    width: 700px;
+  }
+}
